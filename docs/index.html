@@ -66,94 +66,14 @@
         <p>
           Hello! I'm a third-year Robotics Engineering student at Olin College of Engineering with a strong passion for robot algorithms, machine learning, and computer vision.
 
-          My academic journey and hands-on projects have made me proficient in Python and ROS2, and I have extensive experience with C++, C, HTML, CSS, and other tools.
+          My academic journey and research experience have made me proficient in Python and ROS2, and I also have extensive experience with C++ and MATLAB.
           
           I am inspired by the rapid advancements in the robotics industry and am eager to contribute to creating impactful solutions that leverage these technologies to solve real-world problems.      
       </div>
     </section>
-    <section class="section">
-      <div class="container">
-        <h1 class="title">Research</h1>
-        <hr />
-        <div class="card">
-          <div class="card-content">
-            <div class="media">
-              <div class="media-left">
-                <figure class="image is-48x48">
-                  <img
-                    src="img/farm-robotics-logo.png"
-                    alt="farm robotics image"
-                  />
-                </figure>
-              </div>
-              <div class="media-content">
-                <p class="title is-4">Olin AI and Robotics Lab</p>
-                <p class="subtitle is-6">
-                  Student Researcher: <time datetime="2024-5">May 2024</time> -
-                  <time datetime="2024-7">July 2024</time>
-                </p>
-              </div>
-            </div>
-            <div class="content">
-              <p>
-                Collaborated with three other student researchers to enhance the functionality of Phoenixbot, Olin's weed management robot. My contributions include:
-              </p>
-              <ul>
-                <li><b>Object Detection: </b>Developed a package to classify objects into "danger," "warning," or "safe" zones, and integrated it with an LED lighthouse for real-time visual alerts.
-                  Wrote firmware for an Arduino to communicate with a ROS2 node via serial.</li>
-                <li><b>Testing Pipeline: </b>Created a testing pipeline for our segmentation and classification system, 
-                  generating quantitative metrics such as confusion matrices and IoU (Intersection over Union) analysis.</li>
-                <li><b>Work Environment Setup: </b>Established the lab's work environment by setting up remote desktop and SSH access to the Intel NUC computer on our robot.</li>
-              </ul>
-              <div class="tags">
-                <span class="tag">Python</span>
-                <span class="tag">ROS2</span>
-                <span class="tag">Arduino</span>
-                <span class="tag">OpenCV</span>
-                <span class="tag">Linux</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card card-gap">
-          <div class="card-content">
-            <div class="media">
-              <div class="media-left">
-                <figure class="image is-48x48">
-                  <img src="img/farm-robotics-logo.png" alt="farm robotics image" />
-                </figure>
-              </div>
-              <div class="media-content">
-                <p class="title is-4">Olin AI and Robotics Lab</p>
-                <p class="subtitle is-6">
-                  Computer Vision Lead: <time datetime="2024-1">January 2024</time> -
-                  Current
-                </p>
-              </div>
-            </div>
-            <div class="content">
-              <p>
-                Led a team of four engineers in developing a crop and weed identification software for Olin's Farm Robotics Challenge Team. 
-                Our project aims to enhance agricultural efficiency by automating plant recognition and classification. My contributions include:
-              </p>
-              <ul>
-                <li><b>Segmentation Pipeline: </b>Built a segmentation pipeline with OpenCV using methods like HSV thresholding and DBSCAN clustering to segment plants.
-                <li><b>ROS2 Integration: </b>Created a ROS2 node that integrates both segmentation and 
-                  classification pipelines to operate on the robot and publishes real-world coordinates as a ROS topic to the robot arm.</li>
-                <li><b>ICRA 2024: </b> Presented <a href="files/ICRA_abstract.pdf">abstract</a> and <a href="files/ICRA_poster.pdf">poster</a> in <i>Robotics and Sustainability @ ICRA 2024.</i></li>
-              </ul>
-              <div class="tags">
-                <span class="tag">Python</span>
-                <span class="tag">ROS2</span>
-                <span class="tag">OpenCV</span>
-                <span class="tag">Git</span>
-                <span class="tag">Project Management</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    
+    <!-- Load from experience.html -->
+    <div id="experience-section"></div>
 
     <section class="section">
       <div class="container">
@@ -202,8 +122,8 @@
           </div>
         </div>
     </section>
-
-
+  
+  
     <section class="section">
       <div class="container">
         <h1 class="title">Software Projects</h1>
@@ -250,48 +170,6 @@
             </div>
           </div>
         </div>
-        <!-- <div class="tile is-ancestor">
-          <div class="tile is-vertical is-12">
-            <div class="tile">
-              <div class="tile is-parent">
-                <article class="tile is-child notification">
-                  <p class="title">LTRAC</p>
-                  <figure class="image is-4by3">
-                    <img
-                      class="modal-trigger"
-                      data-target="project-8-modal"
-                      src="img/pjcts/ltrac-cover.png"
-                    />
-                  </figure>
-                </article>
-              </div>
-              <div class="tile is-parent">
-                <article class="tile is-child notification">
-                  <p class="title">FIRST Robotics Geography</p>
-                  <figure class="image is-4by3">
-                    <img
-                      class="modal-trigger"
-                      data-target="project-9-modal"
-                      src="img/pjcts/frg-cover.png"
-                    />
-                  </figure>
-                </article>
-              </div>
-              <div class="tile is-parent">
-                <article class="tile is-child notification">
-                  <p class="title">More Projects Incoming</p>
-                  <figure class="image is-4by3">
-                    <img
-                      class="modal-trigger"
-                      data-target="project-7-modal"
-                      src="img/carousel/placeholder.png"
-                    />
-                  </figure>
-                </article>
-              </div>
-            </div>
-          </div>
-        </div> -->
       </div>
     </section>
 
@@ -391,377 +269,379 @@
     </section>
 
     <!-- Modals -->
-    <div id="project-1-modal" class="modal">
-      <div class="modal-background"></div>
-      <div class="modal-card">
-        <header class="modal-card-head">
-          <p class="modal-card-title">ShellWe</p>
-          <button class="delete" aria-label="close"></button>
-        </header>
-        <section class="modal-card-body">
-          <div id="project-1-modal-carousel" class="carousel">
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/shellwe-1.png" />
-            </figure>
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/shellwe-2.png" />
-            </figure>
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/shellwe-3.png" />
-            </figure>
-          </div>
+  <div id="project-1-modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">ShellWe</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <div id="project-1-modal-carousel" class="carousel">
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/shellwe-1.png" />
+          </figure>
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/shellwe-2.png" />
+          </figure>
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/shellwe-3.png" />
+          </figure>
+        </div>
 
-          <div class="content">
-            <p>
-              "Shell we chat?" ShellWe is a terminal-based instant messaging app built using C. The user can chat with multiple users
-              by typing in their terminal. The Text UI is build with ncurses and the messages are delivered through a connection with Google Cloud.
-            </p>
+        <div class="content">
+          <p>
+            "Shell we chat?" ShellWe is a terminal-based instant messaging app built using C. The user can chat with multiple users
+            by typing in their terminal. The Text UI is build with ncurses and the messages are delivered through a connection with Google Cloud.
+          </p>
 
-            <div class="tags">
-              <span class="tag">C</span>
-              <span class="tag">Multithreading</span>
-              <span class="tag">ncurses</span>
-              <span class="tag">Sockets</span>
-            </div>
+          <div class="tags">
+            <span class="tag">C</span>
+            <span class="tag">Multithreading</span>
+            <span class="tag">ncurses</span>
+            <span class="tag">Sockets</span>
           </div>
-        </section>
-        <footer class="modal-card-foot">
-          <button class="button is-success">Close</button>
-        </footer>
-      </div>
+        </div>
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success">Close</button>
+      </footer>
     </div>
+  </div>
 
-    <div id="project-2-modal" class="modal">
-      <div class="modal-background"></div>
-      <div class="modal-card">
-        <header class="modal-card-head">
-          <p class="modal-card-title">Inverted Pendulum Controller</p>
-          <button class="delete" aria-label="close"></button>
-        </header>
-        <section class="modal-card-body">
-          <div id="project-2-modal-carousel" class="carousel">
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/rocky-1.png" />
-            </figure>
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/rocky-2.png" />
-            </figure>
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/rocky-3.png" />
-            </figure>
-          </div>
+  <div id="project-2-modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Inverted Pendulum Controller</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <div id="project-2-modal-carousel" class="carousel">
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/rocky-1.png" />
+          </figure>
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/rocky-2.png" />
+          </figure>
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/rocky-3.png" />
+          </figure>
+        </div>
 
-          <div class="content">
-            <p>
-              Using MATLAB and MATLAB Simulink, fine-tuned a PID controller to balance
-              an inverted pendulum system under external disturbances are applied. In the plots above,
-              an external disturbance is introduced in 10 second intervals.
-            </p>
-            <div class="tags">
-              <span class="tag">MATLAB</span>
-              <span class="tag">MATLAB Simulink</span>
-              <span class="tag">PID controller</span>
-              <span class="tag">System Analysis</span>
-            </div>
+        <div class="content">
+          <p>
+            Using MATLAB and MATLAB Simulink, fine-tuned a PID controller to balance
+            an inverted pendulum system under external disturbances are applied. In the plots above,
+            an external disturbance is introduced in 10 second intervals.
+          </p>
+          <div class="tags">
+            <span class="tag">MATLAB</span>
+            <span class="tag">MATLAB Simulink</span>
+            <span class="tag">PID controller</span>
+            <span class="tag">System Analysis</span>
           </div>
-        </section>
-        <footer class="modal-card-foot">
-          <button class="button is-success">Close</button>
-        </footer>
-      </div>
+        </div>
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success">Close</button>
+      </footer>
     </div>
+  </div>
 
-    <div id="project-3-modal" class="modal">
-      <div class="modal-background"></div>
-      <div class="modal-card">
-        <header class="modal-card-head">
-          <p class="modal-card-title">Mobile Hydroponics</p>
-          <button class="delete" aria-label="close"></button>
-        </header>
-        <section class="modal-card-body">
-          <div id="project-3-modal-carousel" class="carousel">
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/piedro-1.png" />
-            </figure>
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/piedro-2.png" />
-            </figure>
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/piedro-3.png" />
-            </figure>
+  <div id="project-3-modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Mobile Hydroponics</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <div id="project-3-modal-carousel" class="carousel">
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/piedro-1.png" />
+          </figure>
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/piedro-2.png" />
+          </figure>
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/piedro-3.png" />
+          </figure>
+        </div>
+
+        <div class="content">
+          <p>
+            With 4 other students:
+          <li>Built a hydroponics cart that functions with minimum human interaction</li>
+          <li>Designed and fabricated custom, waterproof parts</li>
+          <li>Programmed ESP32 microcontroller for time-based operations</li>
+          <li>Integrated AWS services for web-based sensor monitoring</li>
+          </p>
+
+          <div class="tags">
+            <span class="tag">Microcontroller Programming</span>
+            <span class="tag">Project Management</span>
+            <span class="tag">Mechanical Fabrication</span>
+            <span class="tag">Rapid Prototyping</span>
           </div>
-
-          <div class="content">
-            <p>
-              With 4 other students:
-            <li>Built a hydroponics cart that functions with minimum human interaction</li>
-            <li>Designed and fabricated custom, waterproof parts</li>
-            <li>Programmed ESP32 microcontroller for time-based operations</li>
-            <li>Integrated AWS services for web-based sensor monitoring</li>
-            </p>
-
-            <div class="tags">
-              <span class="tag">Microcontroller Programming</span>
-              <span class="tag">Project Management</span>
-              <span class="tag">Mechanical Fabrication</span>
-              <span class="tag">Rapid Prototyping</span>
-            </div>
-          </div>
-        </section>
-        <footer class="modal-card-foot">
-          <button class="button is-success">Close</button>
-        </footer>
-      </div>
+        </div>
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success">Close</button>
+      </footer>
     </div>
+  </div>
 
-    <div id="project-4-modal" class="modal">
-      <div class="modal-background"></div>
-      <div class="modal-card">
-        <header class="modal-card-head">
-          <p class="modal-card-title">V.O.R.A.</p>
-          <button class="delete" aria-label="close"></button>
-        </header>
-        <section class="modal-card-body">
-          <div id="project-4-modal-carousel" class="carousel">
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/vora-1.png" />
-            </figure>
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/vora-2.png" />
-            </figure>
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/vora-3.png" />
-            </figure>
-          </div>
+  <div id="project-4-modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">V.O.R.A.</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <div id="project-4-modal-carousel" class="carousel">
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/vora-1.png" />
+          </figure>
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/vora-2.png" />
+          </figure>
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/vora-3.png" />
+          </figure>
+        </div>
 
-          <div class="content">
-            <p>
-              Inspired by Jarvis from Iron Man, we created a robot assistant that can be operated using voice commands.
-            - Used OpenCV for april tag navigation
-            - Built an object retrieval function using YOLO and SORT
-            - Trained a custom ML model for voice identification
-            </p>
-            <div class="tags">
-              <span class="tag">ROS2</span>
-              <span class="tag">OpenCV</span>
-              <span class="tag">YOLO</span>
-              <span class="tag">Python</span>
-              <span class="tag">Git</span>
-              <span class="tag">Linux</span>
-            </div>
+        <div class="content">
+          <p>
+            Inspired by Jarvis from Iron Man, we created a robot assistant that can be operated using voice commands.
+          - Used OpenCV for april tag navigation
+          - Built an object retrieval function using YOLO and SORT
+          - Trained a custom ML model for voice identification
+          </p>
+          <div class="tags">
+            <span class="tag">ROS2</span>
+            <span class="tag">OpenCV</span>
+            <span class="tag">YOLO</span>
+            <span class="tag">Python</span>
+            <span class="tag">Git</span>
+            <span class="tag">Linux</span>
           </div>
-        </section>
-        <footer class="modal-card-foot">
-          <button class="button is-success">Close</button>
-        </footer>
-      </div>
+        </div>
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success">Close</button>
+      </footer>
     </div>
+  </div>
+
+
+
+  <div id="project-5-modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Red Light Green Light</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <div id="project-5-modal-carousel" class="carousel">
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/neato-game-1.png" />
+          </figure>
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/neato-game-2.png" />
+          </figure>
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/neato-game-3.png" />
+          </figure>
+        </div>
+
+        <div class="content">
+          <p>
+            Using OpenCV and ROS2 in Python, replicated the 'Red Light Green Light' game from the Netfilx show Squid Game. 
+            <li>
+              Implemented person tracking with SORT and YOLO 
+            </li>
+            <li>
+              Movement detection using OpenCV
+            </li>
+            <li>
+              Integration with a Neato robot using ROS2
+            </li>
+          </p>
+          <div class="tags">
+            <span class="tag">ROS2</span>
+            <span class="tag">Python</span>
+            <span class="tag">OpenCV</span>
+            <span class="tag">YOLO</span>
+            <span class="tag">Git</span>
+          </div>
+        </div>
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success">Close</button>
+      </footer>
+    </div>
+  </div>
+
+  <div id="project-6-modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Particle Filter</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <div id="project-6-modal-carousel" class="carousel">
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/part-filter-1.gif" />
+          </figure>
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/part-filter-2.png" />
+          </figure>
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/part-filter-3.png" />
+          </figure>
+        </div>
+
+        <div class="content">
+          <p>
+            Using ROS2 in Python, implemented a particle filter algorithm for robot localization
+          <li>Robot simulation using rviz2 and gazebo</li>
+          <li>Implemented reference frames tramsforms and projection with matrix operations</li>
+          </p>
+          <div class="tags">
+            <span class="tag">ROS2</span>
+            <span class="tag">Python</span>
+            <span class="tag">Rviz2</span>
+            <span class="tag">Gazebo Simulator</span>
+            <span class="tag">Linear Algebra</span>
+          </div>
+        </div>
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success">Close</button>
+      </footer>
+    </div>
+  </div>
+  <div id="project-7-modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">More projects incoming</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <div id="project-7-modal-carousel" class="carousel">
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/placeholder.png" />
+          </figure>
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/placeholder.png" />
+          </figure>
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/placeholder.png" />
+          </figure>
+        </div>
+
+        <div class="content">
+          <p>
+            Project description goes here.
+          </p>
+          <div class="tags">
+            <!-- <span class="tag">Python</span>
+            <span class="tag">Flask</span>
+            <span class="tag">HTML & CSS</span>
+            <span class="tag">JavaScript</span> -->
+          </div>
+        </div>
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success">Close</button>
+      </footer>
+    </div>
+  </div>
+  <div id="project-8-modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">LTRAC</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <div id="project-8-modal-carousel" class="carousel">
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/1.png" />
+          </figure>
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/2.png" />
+          </figure>
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/3.png" />
+          </figure>
+        </div>
+
+        <div class="content">
+          <p>
+            Software Design Final Project
+            <li>Web-based workout tracker app built in Flask</li>
+            <li>UI built in HTML5, CSS and JinJa2</li>
+            <li>Backend in Python</li>
+          </p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">Flask</span>
+            <span class="tag">HTML5 & CSS</span>
+          </div>
+        </div>
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success">Close</button>
+      </footer>
+    </div>
+  </div>
+  <div id="project-9-modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">FIRST Robotics Geography</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <div id="project-9-modal-carousel" class="carousel">
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/1.png" />
+          </figure>
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/2.png" />
+          </figure>
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/3.png" />
+          </figure>
+        </div>
+
+        <div class="content">
+          <p>
+            Software Design Midterm Project
+            <li>Used the FIRST Robotics API to model the organization's growth over time</li>
+            <li>Data analysis/visualization through Pandas and Folium</li>
+          </p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">Pandas</span>
+            <span class="tag">Data Analysis</span>
+            <span class="tag">Data Visualization</span>
+          </div>
+        </div>
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success">Close</button>
+      </footer>
+    </div>
+  </div>
 
     
-
-    <div id="project-5-modal" class="modal">
-      <div class="modal-background"></div>
-      <div class="modal-card">
-        <header class="modal-card-head">
-          <p class="modal-card-title">Red Light Green Light</p>
-          <button class="delete" aria-label="close"></button>
-        </header>
-        <section class="modal-card-body">
-          <div id="project-5-modal-carousel" class="carousel">
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/neato-game-1.png" />
-            </figure>
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/neato-game-2.png" />
-            </figure>
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/neato-game-3.png" />
-            </figure>
-          </div>
-
-          <div class="content">
-            <p>
-              Using OpenCV and ROS2 in Python, replicated the 'Red Light Green Light' game from the Netfilx show Squid Game. 
-              <li>
-                Implemented person tracking with SORT and YOLO 
-              </li>
-              <li>
-                Movement detection using OpenCV
-              </li>
-              <li>
-                Integration with a Neato robot using ROS2
-              </li>
-            </p>
-            <div class="tags">
-              <span class="tag">ROS2</span>
-              <span class="tag">Python</span>
-              <span class="tag">OpenCV</span>
-              <span class="tag">YOLO</span>
-              <span class="tag">Git</span>
-            </div>
-          </div>
-        </section>
-        <footer class="modal-card-foot">
-          <button class="button is-success">Close</button>
-        </footer>
-      </div>
-    </div>
-
-    <div id="project-6-modal" class="modal">
-      <div class="modal-background"></div>
-      <div class="modal-card">
-        <header class="modal-card-head">
-          <p class="modal-card-title">Particle Filter</p>
-          <button class="delete" aria-label="close"></button>
-        </header>
-        <section class="modal-card-body">
-          <div id="project-6-modal-carousel" class="carousel">
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/part-filter-1.gif" />
-            </figure>
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/part-filter-2.png" />
-            </figure>
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/part-filter-3.png" />
-            </figure>
-          </div>
-
-          <div class="content">
-            <p>
-              Using ROS2 in Python, implemented a particle filter algorithm for robot localization
-            <li>Robot simulation using rviz2 and gazebo</li>
-            <li>Implemented reference frames tramsforms and projection with matrix operations</li>
-            </p>
-            <div class="tags">
-              <span class="tag">ROS2</span>
-              <span class="tag">Python</span>
-              <span class="tag">Rviz2</span>
-              <span class="tag">Gazebo Simulator</span>
-              <span class="tag">Linear Algebra</span>
-            </div>
-          </div>
-        </section>
-        <footer class="modal-card-foot">
-          <button class="button is-success">Close</button>
-        </footer>
-      </div>
-    </div>
-    <div id="project-7-modal" class="modal">
-      <div class="modal-background"></div>
-      <div class="modal-card">
-        <header class="modal-card-head">
-          <p class="modal-card-title">More projects incoming</p>
-          <button class="delete" aria-label="close"></button>
-        </header>
-        <section class="modal-card-body">
-          <div id="project-7-modal-carousel" class="carousel">
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/placeholder.png" />
-            </figure>
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/placeholder.png" />
-            </figure>
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/placeholder.png" />
-            </figure>
-          </div>
-
-          <div class="content">
-            <p>
-              Project description goes here.
-            </p>
-            <div class="tags">
-              <!-- <span class="tag">Python</span>
-              <span class="tag">Flask</span>
-              <span class="tag">HTML & CSS</span>
-              <span class="tag">JavaScript</span> -->
-            </div>
-          </div>
-        </section>
-        <footer class="modal-card-foot">
-          <button class="button is-success">Close</button>
-        </footer>
-      </div>
-    </div>
-    <div id="project-8-modal" class="modal">
-      <div class="modal-background"></div>
-      <div class="modal-card">
-        <header class="modal-card-head">
-          <p class="modal-card-title">LTRAC</p>
-          <button class="delete" aria-label="close"></button>
-        </header>
-        <section class="modal-card-body">
-          <div id="project-8-modal-carousel" class="carousel">
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/1.png" />
-            </figure>
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/2.png" />
-            </figure>
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/3.png" />
-            </figure>
-          </div>
-
-          <div class="content">
-            <p>
-              Software Design Final Project
-              <li>Web-based workout tracker app built in Flask</li>
-              <li>UI built in HTML5, CSS and JinJa2</li>
-              <li>Backend in Python</li>
-            </p>
-            <div class="tags">
-              <span class="tag">Python</span>
-              <span class="tag">Flask</span>
-              <span class="tag">HTML5 & CSS</span>
-            </div>
-          </div>
-        </section>
-        <footer class="modal-card-foot">
-          <button class="button is-success">Close</button>
-        </footer>
-      </div>
-    </div>
-    <div id="project-9-modal" class="modal">
-      <div class="modal-background"></div>
-      <div class="modal-card">
-        <header class="modal-card-head">
-          <p class="modal-card-title">FIRST Robotics Geography</p>
-          <button class="delete" aria-label="close"></button>
-        </header>
-        <section class="modal-card-body">
-          <div id="project-9-modal-carousel" class="carousel">
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/1.png" />
-            </figure>
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/2.png" />
-            </figure>
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/3.png" />
-            </figure>
-          </div>
-
-          <div class="content">
-            <p>
-              Software Design Midterm Project
-              <li>Used the FIRST Robotics API to model the organization's growth over time</li>
-              <li>Data analysis/visualization through Pandas and Folium</li>
-            </p>
-            <div class="tags">
-              <span class="tag">Python</span>
-              <span class="tag">Pandas</span>
-              <span class="tag">Data Analysis</span>
-              <span class="tag">Data Visualization</span>
-            </div>
-          </div>
-        </section>
-        <footer class="modal-card-foot">
-          <button class="button is-success">Close</button>
-        </footer>
-      </div>
-    </div>
 
     <!-- <footer class="footer">
       <div class="content has-text-centered"> -->
@@ -773,5 +653,6 @@
 
     <script src="js/bundle.js"></script>
     <script src="js/button.js"></script>
+    <script src="js/loader.js"></script>
   </body>
 </html>
